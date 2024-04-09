@@ -77,9 +77,10 @@ h1 {
     max-width: 642px;
 }
 .hero-text-container .text-under {
-    font-family: Montserrat-SemiBold, sans-serif;
+    font-family: Montserrat-Regular, sans-serif;
     color: #FFFFFF;
     font-size: 24px;
+    font-style: italic;
 }
 .hero-text-container a {
     display: inline-block;
