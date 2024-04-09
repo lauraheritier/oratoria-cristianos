@@ -164,58 +164,39 @@ h1 {
 .course p.intro-text .bold {
     font-family: 'Montserrat-SemiBold';
 }
-#cta {
+#content {
     background-color: #3C5E8C;
-}
-#cta
-#cta .details {
-    max-width: 830px;
-    margin: 0 auto;
-    text-align: center;
-}
-.cta {
     padding-top: 90px;
     padding-bottom: 50px;
 }
-.cta-details {
-    font-family: Montserrat-Regular, sans-serif;
+#content .content-title {
     font-size: 24px;
-    color: #84b8ff;
-    text-align: center;
-    max-width: 653px;
-    margin: 0 auto;
-    position: relative;
-}
-.cta-container {
-    text-align: center;
-    margin: 0 auto;
-}
-#cta a {
-    display: inline-block;
-    background-color: #d63e4b; 
-    padding: 16px 24px;
-    font-family: Montserrat-Regular, sans-serif;
-    font-size: 28px;
     color: #FFFFFF;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-top: 16px;
-    transition: all 0.5s ease;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    border-bottom: 1px solid;
 }
-#cta a:hover, #cta a:focus {
-    color: #d63e4b;
-    text-decoration: none;
-    background-color: #FFFFFF;
-}
-#cta a {
-    text-align: center;
-    margin: 32px auto;
-}
-#cta .details {
-    color: #CBCBCB;
+#content ul {
     font-family: Montserrat-Regular, sans-serif;
-    max-width: 830px;
-    margin: 0 auto;
+    font-size: 20px;
+    color: #84b8ff;
+    list-style-type: none;
+    padding: 0;
+}
+#content ul li {
+    padding: 8px 0;
+}
+#payment {
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+#payment .payment-title {
+    color: #3C5E8C;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    border-bottom: 1px solid;
+}
+#payment-details, #payment .bank {
+    font-family: "Montserrat-Regular", sans-serif;
+    color: #323232;
 }
 .footer {
     background-color: #CBCBCB;
