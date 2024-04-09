@@ -1,0 +1,291 @@
+
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url("./fonts/Montserrat-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("./fonts/Montserrat-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-ExtraBold";
+  src: url("./fonts/Montserrat-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("./fonts/Montserrat-Regular.ttf") format("truetype");
+} 
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("./fonts/Montserrat-SemiBold.ttf") format("truetype");
+} 
+body, html {
+    scroll-behavior: smooth;
+}
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #FDFDFD;
+    overflow-x: hidden;
+}
+.hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("img/bg.webp");
+    min-height: 83vh;
+    min-width: 100vw;
+    justify-content: center;
+}
+.hero:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 83vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(60,94,140,0.7) 0%, rgba(60,94,140,0.8) 100%);
+    z-index: -1;
+}
+.hero-text-container {
+    margin-top: 48px;
+    max-width: 677px;
+    margin-right: auto;
+}
+.hero .tag {
+    background-color: #3C5E8C;
+    font-family: Montserrat-Regular, sans-serif;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 8px;
+}
+h1 {
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 56px;
+    margin: 0;
+    line-height: 67px;
+    color: #FFFFFF;
+    max-width: 642px;
+}
+.hero-text-container .text-under {
+    font-family: Montserrat-Regular, sans-serif;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-style: italic;
+}
+.hero-text-container a {
+    display: inline-block;
+    background-color: #d63e4b; 
+    padding: 16px 24px;
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 16px;
+    transition: all 0.5s ease;
+}
+.hero-text-container a:hover, .hero-text-container a:focus {
+    color: #d63e4b;
+    text-decoration: none;
+    background-color: #FFFFFF;
+}
+.about-container {
+    text-align: center;
+}
+.about-container img {
+    max-width: 140px;
+    border-radius: 100%;
+}
+.about-container .img-container {
+    margin: 8px auto;
+    text-align: center;
+    padding-bottom: 8px;
+    position: relative;
+    margin-top: 0;
+}
+.about-container .img-container:after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 1px;
+    background-color: #CBCBCB;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    position: absolute;
+}
+.about-container p, .about-container a {
+    color: #323232;
+    font-family: Montserrat-Regular, sans-serif;
+    margin: 0;
+}
+.about-container .speaker {
+    font-family: Montserrat-SemiBold, sans-serif;
+}
+.course .data .col-lg-4 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #3c5e8c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.course .data .col-lg-4 p {
+    font-family: Montserrat-SemiBold, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 0;
+    text-align: center;
+}
+.data .middle {
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+}
+.course .col-lg-6, .course .col-lg-5 {
+    color: #323232;
+    font-family: Montserrat-Regular, sans-serif;
+    margin-top: 90px;
+    margin-bottom: 56px;
+}
+.course .intro-text {
+    font-size: 20px;
+}
+#cta {
+    background-color: #3C5E8C;
+}
+#cta
+#cta .details {
+    max-width: 830px;
+    margin: 0 auto;
+    text-align: center;
+}
+.cta {
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.cta-details {
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 24px;
+    color: #84b8ff;
+    text-align: center;
+    max-width: 653px;
+    margin: 0 auto;
+    position: relative;
+}
+.cta-container {
+    text-align: center;
+    margin: 0 auto;
+}
+#cta a {
+    display: inline-block;
+    background-color: #d63e4b; 
+    padding: 16px 24px;
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 16px;
+    transition: all 0.5s ease;
+}
+#cta a:hover, #cta a:focus {
+    color: #d63e4b;
+    text-decoration: none;
+    background-color: #FFFFFF;
+}
+#cta a {
+    text-align: center;
+    margin: 32px auto;
+}
+#cta .details {
+    color: #CBCBCB;
+    font-family: Montserrat-Regular, sans-serif;
+    max-width: 830px;
+    margin: 0 auto;
+}
+.footer {
+    background-color: #CBCBCB;
+    padding-top: 34px;
+    padding-bottom: 16px;
+}
+footer * {
+    color: #323232;
+    font-family: Montserrat-Regular, sans-serif;
+}
+footer a:hover, footer a:focus {
+    color: #323232;
+}
+footer .contact-title {
+    font-family: Montserrat-SemiBold, sans-serif;
+    margin: 0;
+}
+.footer .col-8 a {
+    display: inline-block;
+    width: 100%;
+  font-size: 12px;
+}
+footer .brand {
+    text-align: center;
+    width: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    margin-left: 8px;
+}
+footer .col-4 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footer img {
+    width: 120px;
+}
+.data {
+    margin: 0;
+}
+@media only screen and (max-width: 576px) {
+    .hero {
+        padding-bottom: 56px;
+        min-height: initial;
+    }
+    .hero:before {
+        height: 100%;
+    }
+    h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .hero-text-container .text-under {
+        font-size: 16px;
+    }
+    .course .col-lg-7, .course .col-lg-5 {
+        margin-top: 40px;
+        margin-bottom: 32px;
+    }
+    .hero-text-container a {
+        margin-top: 16px;
+    }
+    .hero-text-container a, #cta a {
+        padding: 8px 12px;
+        font-size: 23px;
+    }
+    .cta {
+        padding-top: 40px;
+    }
+    .data .middle {
+        border-top: 1px solid #FFFFFF;
+        border-bottom: 1px solid #FFFFFF;
+        border-left: 0;
+        border-right: 0;
+    }
+}
