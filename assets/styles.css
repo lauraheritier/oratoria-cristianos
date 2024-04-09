@@ -159,7 +159,10 @@ h1 {
     margin-bottom: 56px;
 }
 .course .intro-text {
-    font-size: 20px;
+    font-size: 16px;
+}
+.course p.intro-text .bold {
+    font-family: 'Montserrat-SemiBold';
 }
 #cta {
     background-color: #3C5E8C;
